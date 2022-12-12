@@ -1,0 +1,10 @@
+#! /bin/bash
+echo "Program: $0 The number of arguments is $# the argument are $*" 
+if grep "$1" $2
+then
+echo "Pattern found"
+else
+echo "Pattern not found"
+fi
+
+
